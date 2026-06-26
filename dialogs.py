@@ -1,4 +1,6 @@
-# dialogs.py
+# Nama: Farid Nanda Syauqi
+# NIM: F1D02310050
+# Kelas: C
 from PySide6.QtWidgets import (
     QDialog, QVBoxLayout, QFormLayout, QDialogButtonBox,
     QLineEdit, QTextEdit, QComboBox, QMessageBox

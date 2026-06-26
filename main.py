@@ -1,4 +1,6 @@
-# main.py
+# Nama: Farid Nanda Syauqi
+# NIM: F1D02310050
+# Kelas: C
 import sys
 from PySide6.QtCore import QThread, Qt
 from PySide6.QtWidgets import (
@@ -71,7 +73,6 @@ class PostViewerApp(QMainWindow):
         self.table.currentCellChanged.connect(self.on_row_selected)
         
     def run_worker(self, action, on_success, post_id=None, title=None, body=None, author=None, slug=None, status=None):
-        """Helper Threading: Menjamin background thread asinkronus bebas kebocoran memori"""
         self._thread = QThread()
         self._worker = ApiWorker(
             action, post_id=post_id, title=title, body=body, 

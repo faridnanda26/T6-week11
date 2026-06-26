@@ -1,4 +1,6 @@
-# api_service.py
+# Nama: Farid Nanda Syauqi
+# NIM: F1D02310050
+# Kelas: C
 import requests
 
 class ApiService:

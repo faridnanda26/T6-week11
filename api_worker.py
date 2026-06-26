@@ -1,4 +1,6 @@
-# api_worker.py
+# Nama: Farid Nanda Syauqi
+# NIM: F1D02310050
+# Kelas: C
 from PySide6.QtCore import QObject, Signal
 from api_service import ApiService
 
